@@ -14,6 +14,7 @@ from imhotep import http
 from .errors import UnknownTools, NoCommitInfo
 
 
+logging.basicConfig()
 log = logging.getLogger(__name__)
 
 
